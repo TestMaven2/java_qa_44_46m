@@ -2,6 +2,7 @@ package lesson6;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class ListTasks {
 
@@ -42,5 +43,8 @@ public class ListTasks {
         System.out.println(ListUtils.joinWithoutDuplicates(first, second));
 
         System.out.println(ListUtils.difference(first, second));
+
+        AtomicInteger integer = new AtomicInteger();
+        integer.getAndIncrement();
     }
 }
