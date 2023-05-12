@@ -5,7 +5,6 @@ import java.util.Iterator;
 public class MyLinkedList implements Iterable<String> {
 
     private int size = 0;
-    // Ra3vja3ka:
     private Node head;
 
     public void add(String value) {
